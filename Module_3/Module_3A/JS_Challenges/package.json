@@ -1,0 +1,12 @@
+{
+    "name": "js-for-testers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Challenge1.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Victoria",
+    "license": "ISC"
+  }
+  
