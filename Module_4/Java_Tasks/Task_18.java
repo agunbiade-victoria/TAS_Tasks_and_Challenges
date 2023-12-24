@@ -5,9 +5,9 @@ public class Task_18 {
             Scanner userInput = new Scanner((System.in));
             System.out.println("How old are you?");
             int dob = userInput.nextInt();
-        } catch (Exception ageException){
+        } catch (Exception exceptionOfAge){
             System.out.println("This field accepts numbers only");
-            System.out.println(ageException);
+            System.out.println(exceptionOfAge);
         }
     }
 }
