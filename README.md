@@ -1,1 +1,1 @@
-# TAS_Tasks_and_Challenges
+This is a repository for all Testify Automation School tasks and challenges
