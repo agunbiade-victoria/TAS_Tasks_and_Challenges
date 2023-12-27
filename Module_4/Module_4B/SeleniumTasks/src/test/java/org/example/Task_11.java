@@ -21,14 +21,12 @@ public class Task_11 {
         driver.findElement(By.name("q")).sendKeys("testify ltd");
         Thread.sleep(2000);
 
-        driver.findElement(By.xpath("//body/div[1]/div[2]/div[1]/img[1]")).click();
-        Thread.sleep(2000);
-
-        driver.findElement(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[4]/center[1]/input[1]")).click();
-        Thread.sleep(2000);
-
         //click on the search with testifyltd.com
-        driver.findElement(By.xpath("//body/div[@id='main']/div[@id='cnt']/div[@id='rcnt']/div[@id='center_col']/div[@id='res']/div[@id='search']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/a[1]/h3[1]")).click();
+        driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/div[1]/div[2]/div[1]/div[1]/span[1]/b[1]")).click();
+        Thread.sleep(2000);
+
+        driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/h3")).click();
+        Thread.sleep(2000);
 
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
